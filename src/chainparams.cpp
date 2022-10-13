@@ -533,7 +533,7 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0xb8e28f8da2e6a01572a6aa4267f453b95819d04248409cdf19c6057cc42164c7"));
         assert(genesis.hashMerkleRoot == uint256S("0x4698315ac6eb3404306fc1cde5dba4d30c8134778e70ef671c33075e409817ab"));
 
-        vSeeds.emplace_back("dns.atanapi.org");
+        vSeeds.emplace_back("dns000.atanapi.org");
 
 
         // Atanapi addresses start with 'A'
