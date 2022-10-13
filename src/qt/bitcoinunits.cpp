@@ -47,9 +47,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case BTM: return QString("BTM");
-            case mBTM: return QString("mBTM");
-            case uBTM: return QString::fromUtf8("μBTM");
+            case BTM: return QString("NAPI");
+            case mBTM: return QString("mNAPI");
+            case uBTM: return QString::fromUtf8("μNAPI");
             case ruffs: return QString("ruffs");
             default: return QString("???");
         }
@@ -58,9 +58,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case BTM: return QString("tBTM");
-            case mBTM: return QString("mtBTM");
-            case uBTM: return QString::fromUtf8("μtBTM");
+            case BTM: return QString("tNAPI");
+            case mBTM: return QString("mtNAPI");
+            case uBTM: return QString::fromUtf8("μtNAPI");
             case ruffs: return QString("truffs");
             default: return QString("???");
         }

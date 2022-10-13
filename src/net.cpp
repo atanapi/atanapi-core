@@ -2660,7 +2660,7 @@ void CConnman::ThreadOpenSmartnodeConnections()
 //                if (dmn && !connectedNodes.count(dmn->pdmnState->addr) && !IsSmartnodeOrDisconnectRequested(dmn->pdmnState->addr)) {
 //                    connectToDmn = dmn;
 //                    LogPrint(BCLog::NET_NETCONN, "CConnman::%s -- opening pending smartnode connection to %s, service=%s\n", __func__, dmn->proTxHash.ToString(), dmn->pdmnState->addr.ToString(false));
-// Added by BTM:
+// Added by Atanapi:
   {
             LOCK(cs_main); // Lock cs_main first to avoid deadlocks (it is recursively locked deeper)
             LOCK2(cs_vNodes, cs_vPendingSmartnodes);
@@ -2672,7 +2672,7 @@ void CConnman::ThreadOpenSmartnodeConnections()
                     connectToDmn = dmn;
                     LogPrint(BCLog::NET_NETCONN, "CConnman::%s -- opening pending smartnode connection to %s, service=%s\n", __func__, dmn->proTxHash.ToString(), dmn->pdmnState->addr.ToString(false));
 
-// END by BTM
+// END by Atanapi
                 }
             }
 
