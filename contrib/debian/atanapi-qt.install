@@ -1,0 +1,6 @@
+usr/local/bin/atanapi-qt usr/bin
+share/pixmaps/atanapi32.xpm usr/share/pixmaps
+share/pixmaps/atanapi16.xpm usr/share/pixmaps
+share/pixmaps/atanapi128.png usr/share/pixmaps
+debian/atanapi-qt.desktop usr/share/applications
+debian/atanapi-qt.protocol usr/share/kde4/services/

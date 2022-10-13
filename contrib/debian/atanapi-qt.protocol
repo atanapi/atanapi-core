@@ -1,0 +1,11 @@
+[Protocol]
+exec=atanapi-qt '%u'
+protocol=atanapi
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

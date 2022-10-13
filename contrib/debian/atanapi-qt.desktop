@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Atanapi Core
+Comment=Atanapi P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Atanapi peer-to-peer Netzwerk
+Comment[fr]=Atanapi, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Atanapi, eşten eşe kriptografik sanal para birimi
+Exec=atanapi-qt %u
+Terminal=false
+Type=Application
+Icon=atanapi128
+MimeType=x-scheme-handler/atanapi;
+Categories=Office;Finance;
